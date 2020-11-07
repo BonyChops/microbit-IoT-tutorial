@@ -6,17 +6,9 @@
 <script src="https://chirimen.org/remote-connection/js/RelayServer.js"></script>
 <script src="pc.js"></script>
 <body>
-<h3 id="deviceTitle">Remote Example - Display</h3>
-
-<table border="1">
-<tr><th>Name</th><th>Value</th></tr>
-<tr><td>acceleration</td><td id="accTd">-</td></tr>
-<tr><td>magneticField</td><td id="magTd">-</td></tr>
-<tr><td>temperature</td><td id="temTd">-</td></tr>
-<tr><td>brightness</td><td id="briTd">-</td></tr>
-<tr><td>button</td><td id="butTd">-</td></tr>
-<tr><td>time</td><td id="timTd">-</td></tr>
-</table>
-<div id="messageDiv"></div>
+<h3 id="deviceTitle">Remote Example - Controller</h3>
+<input type="button" onclick="OnLED()" value="LED/MOTOR ON"></input>
+<input type="button" onclick="OffLED()" value="LED/MOTOR OFF"></input>
+<div id="messageDiv" ></div>
 </body>
 </html>
